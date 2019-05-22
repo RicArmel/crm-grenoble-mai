@@ -4,9 +4,10 @@ import { State } from '../enums/state.enum';
 export class Prestation implements PrestationI {
   id: string;
   client: string;
+  typePresta: string;
   nbJours = 1;
   tjmHt = 500;
-  tauxTva = 20:
+  tauxTva = 20;
   state = State.OPTION;
   comment: string;
 
