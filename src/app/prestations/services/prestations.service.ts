@@ -27,6 +27,6 @@ export class PrestationsService {
   update(item: Prestation, state?: State) {
     const data = {...item};
     data.state = state;
-    console.log(item);
+    item.state = state;
   }
 }
